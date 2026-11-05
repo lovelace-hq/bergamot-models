@@ -1,7 +1,5 @@
-# Bergamot public asset mirror
+# Mozilla translation assets
 
-Only translation model and WebAssembly bytes. No private application code or user data. MPL-2.0; see LICENSE and NOTICE.txt.
+Public, immutable mirror of the current released Mozilla translation models and Firefox inference engine. Models are selected from the mozilla/translations registry and matched by SHA-256 against Firefox Remote Settings. Only released models are selected, not experimental candidates. See PROVENANCE.json for source URLs, versions and hashes. Model bytes are decompressed without modification.
 
-Models copied unmodified from https://bergamot.s3.amazonaws.com/models/ (Firefox Translations models). Source, training configuration and licenses: https://github.com/mozilla/firefox-translations-models . WASM is the unmodified @browsermt/bergamot-translator 0.4.9 distribution; source https://github.com/browsermt/bergamot-translator .
-
-SHA256SUMS pins uncompressed bytes. Files above 20 MB must use raw.githubusercontent.com, not jsDelivr's GitHub endpoint. Consumers must validate each file against its pinned SHA-256 before use.
+The JS glue and WASM implement the current Firefox v0.6.0 inference ABI. This mirror contains public assets only. MPL-2.0.
