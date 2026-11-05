@@ -1,0 +1,10 @@
+Bergamot translation models and WebAssembly assets.
+
+Models distributed unmodified under MPL-2.0.
+Upstream model source and training configuration: https://github.com/mozilla/firefox-translations-models
+Model file origin: https://bergamot.s3.amazonaws.com/models/
+
+WebAssembly distributed unmodified from @browsermt/bergamot-translator 0.4.9 under MPL-2.0.
+Source: https://github.com/browsermt/bergamot-translator
+
+See LICENSE for the full Mozilla Public License 2.0.
